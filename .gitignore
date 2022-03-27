@@ -124,10 +124,6 @@ Temporary Items
 .apdisk
 
 folders
-HTML/
-JDBC/
-JSP/
 Servers/
-ELJSTL/
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,eclipse,java
