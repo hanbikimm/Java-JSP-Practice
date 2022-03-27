@@ -239,7 +239,7 @@ public class StudentDAO {
 	}
 	
 	
-	//해석해보기
+	
 	public List<StudentDTO> select() {
 		
 		List<StudentDTO> list = new ArrayList<StudentDTO>();
