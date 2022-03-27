@@ -239,7 +239,7 @@ public class StudentDAO {
 	}
 	
 	
-	
+	//전체 검색
 	public List<StudentDTO> select() {
 		
 		List<StudentDTO> list = new ArrayList<StudentDTO>();
@@ -280,6 +280,7 @@ public class StudentDAO {
 		return list;
 	}
 	
+	//이름 검색
 	public List<StudentDTO> select(String sname) {
 		
 		List<StudentDTO> list = new ArrayList<StudentDTO>();
@@ -322,6 +323,7 @@ public class StudentDAO {
 		return list;
 	}
 	
+	//코드 검색
 	public List<StudentDTO> select(int scode) {
 		
 		List<StudentDTO> list = new ArrayList<StudentDTO>();
